@@ -1,0 +1,43 @@
+.overlay
+    display: none
+    position: fixed
+    background-color: rgba(0,0,0,.3)
+    width: 100%
+    height: 100%
+    top: 0
+    .form
+        position: absolute
+        width: 380px
+        min-height: 400px
+        background-color: #f2f2f2
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        padding: 38px 42px 40px 37px
+        .title
+            font-size: 16px
+            font-weight: 700
+            color: #0d0d0d
+            margin-bottom: 10px
+            text-align: center
+        .subtitle
+            font-size: 14px
+            font-weight: 500
+            color: #0d0d0d
+            margin-bottom: 25px
+            text-align: center
+        .error
+            border: 1px #FF0000 solid
+        label.error
+            border: none
+            margin-bottom: 15px
+            text-align: center
+    &__close
+        position: absolute
+        right: -40px
+        top: -30px
+        color: #c70101
+        font-size: 41px
+        cursor: pointer
+    &__thanks
+        height: 140px
