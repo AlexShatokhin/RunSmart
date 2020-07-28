@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>RunSmart. Бегай легко - укрепляй здоровье</title>
 </head>
@@ -39,7 +40,7 @@
             <div class="title">НАШИ ПРЕИМУЩЕСТВА</div>
             <div class="advantages__wrapper">
                 <div class="advantages__item"><img src="icons/cup.png" alt="cup"><div class="main">Делимся опытом</div> <div class="advantages__text"> Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div></div>
-                <div class="advantages__item"><img src="icons/heart.png" alt="heart"><div class="main">Заботимся о здоровье</div><div class="advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div></div>
+                <div class="advantages__item "><img src="icons/heart.png" class="animate__animated animate__pulse animate__infinite" alt="heart"><div class="main">Заботимся о здоровье</div><div class="advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</div></div>
                 <div class="advantages__item"><img src="icons/shoe.png" alt="shoe"><div class="main">Учим бегать</div><div class="advantages__text">Помогаем с обучением правильной технике бега! <br> Дружим с крупнейшей школой бега в России - <a href="#">I LOVE RUNNING.</a></div></div>
             </div>
         </div>
@@ -381,7 +382,7 @@
     <div class="review">
         <div class="container">
             <div class="title">отзывы клиентов</div>
-            <div class="review__content">
+            <div class="review__content animate__animated wow animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
                 <div class="review__logo"> <img src="icons/avatar_1.png" alt="1"> </div>
                 <div class="review__text">
                     <div class="review__text-name">Ирина Иванченко</div>
@@ -392,7 +393,7 @@
                     </div>
                 </div>
             </div>
-            <div class="review__content">
+            <div class="review__content animate__animated wow animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
                 <div class="review__logo"> <img src="icons/avatar_2.png" alt="2"> </div>
                 <div class="review__text">
                     <div class="review__text-name">Иван Сёмочкин</div>
@@ -404,7 +405,7 @@
                     </div>
                 </div>
             </div>
-            <div class="review__content">
+            <div class="review__content animate__animated wow animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
                 <div class="review__logo"> <img src="icons/avatar_3.png" alt="3"> </div>
                 <div class="review__text">
                     <div class="review__text-name">Юлия Дашкина</div>
@@ -431,8 +432,8 @@
         </div>
     </div>
 
-    <div class="overlay overlay-consultation"> 
-        <form action="#" class="form">
+    <div id="consultation" class="overlay overlay-consultation"> 
+        <form id="window-form" action="#" class="form form__window">
             <div class="overlay__close">&times;</div>
             <div class="title">Просто заполните форму заявки</div>
             <div class="subtitle">и мы перезвоним вам в течении 10 минут</div>
@@ -442,8 +443,8 @@
             <button class="button button_submit">заказать консультацию</button>
         </form>
     </div>
-    <div class="overlay overlay-order"> 
-        <form action="#" class="form">
+    <div id="order" class="overlay overlay-order"> 
+        <form id="window-form" action="#" class="form">
             <div class="overlay__close">&times;</div>
             <div class="title">Ваш заказ:</div>
             <div class="subtitle">Пульсометр Polar FT1</div>
@@ -453,8 +454,8 @@
             <button class="button button_submit">купить</button>
         </form>
     </div>
-    <div class="overlay overlay-thanks"> 
-        <form action="#" class="form">
+    <div id="thanks" class="overlay overlay-thanks"> 
+        <form id="window-form" action="#" class="form form__window">
             <div class="overlay__close">&times;</div>
             <div class="title">Спасибо за вашу заявку!</div>
             <div class="subtitle">Наш менеджер свяжется с вами  в ближайшее время!!!!</div>
@@ -472,6 +473,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>

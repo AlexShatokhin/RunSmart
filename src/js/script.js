@@ -160,4 +160,6 @@ $(document).ready(function(){
     });
 
     $("input[name=phone]").mask('+373 999-99-99');
+
+    new WOW().init();
 });

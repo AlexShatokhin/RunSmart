@@ -127,7 +127,8 @@
             &-main
                 p
                     font-size: 12px
-        &__logo
+        .review__logo
+            margin-right: 17px
             img
                 width: 100px
     .footer
@@ -148,6 +149,18 @@
                     i
                         font-size: 20px
                         margin-top: 8px
+@media ( max-width: 480px )
+    #window-form
+        width: 250px
+        min-height: 370px
+        padding: 23px 30px 23px 30px
+        .overlay__close
+            right: -30px
+        .button_submit
+            width: 100%
+            font-size: 11.5px
+        label.error
+            font-size: 11px
 
 @media ( max-width: 431px )
     .promo__icon
@@ -226,13 +239,4 @@
     .footer
         .footer__content
             width: 319px
-    .overlay
-        .form
-            width: 240px
-            height: 340px
-            button
-                width: 100%
 
-    
-
-    
