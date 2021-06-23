@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -19,7 +19,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('shatokhin.04@inbox.ru', 'Pulse. RunSmart - фитнес-браслеты');   // От кого письмо 
-$mail->addAddress('xigopi3716@gomail4.com');     // Add a recipient
+$mail->addAddress('kexej27681@moxkid.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
