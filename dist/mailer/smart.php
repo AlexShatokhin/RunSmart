@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -13,13 +13,13 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'shatokhin.04@inbox.ru';                 // Наш логин
-$mail->Password = 'tarakan305';                           // Наш пароль от ящика
+$mail->Username = 'a-shatokhin@internet.ru';                 // Наш логин
+$mail->Password = 'gg$name&surname';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('shatokhin.04@inbox.ru', 'Pulse. RunSmart - фитнес-браслеты');   // От кого письмо 
-$mail->addAddress('xigopi3716@gomail4.com');     // Add a recipient
+$mail->setFrom('a-shatokhin@internet.ru', 'Pulse. RunSmart - фитнес-браслеты');   // От кого письмо 
+$mail->addAddress('shatokhin.04@inbox.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
